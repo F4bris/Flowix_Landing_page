@@ -17,7 +17,7 @@ Flowix es una solución que consiste en una plataforma digital (web o móvil), l
 
 ## SEGMENTOS OBJETIVO
 
-1.Técnicos o trabajadores de campo
+**1.Técnicos o trabajadores de campo**
 
 Edad: 22 - 45 años
 
@@ -25,13 +25,14 @@ Características: Trabajadores operativos con distintos niveles de experiencia l
 
 Necesidad: Contar con una herramienta práctica e intuitiva que les permita visualizar sus tareas asignadas, registrar avances o evidencias y comunicarse de forma ágil con sus supervisores, reduciendo tiempos y errores en la gestión diaria.
 
-2.Supervisores o gerentes
+**2.Supervisores o gerentes**
 
 Edad: 35 - 65 años
 
 Características: Profesionales con experiencia en gestión de equipos, responsables de planificar, coordinar y supervisar el trabajo de las cuadrillas en campo. Manejan reportes, controlan recursos y buscan eficiencia en la operación.
 
 Necesidad: Una plataforma que les permita monitorear el progreso de las cuadrillas en tiempo real, generar reportes automáticos y tomar decisiones basadas en información actualizada y confiable.
+
 
 
 
