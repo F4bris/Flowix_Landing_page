@@ -4,11 +4,16 @@ El proyecto Flowix busca optimizar la organización, supervisión y comunicació
 Flowix es una solución que consiste en una plataforma digital(web o móvil), la cual nos permitirá registrar cuadrillas, asignar tareas diarias o proyectos específicos, monitorear el progreso en tiempo real y generar reportes automáticos de desempeño. De esta manera, podremos reducir la perdida de tiempo en coordinación, fortalecer las comunicaciones y mejorar la trazabilidad del trabajo en campo.
 
 INTEGRANTES:
-Cordova Valdivia, Fabio Joaquin (U20221B668)
-Espinoza Lopez, Paul Alexandro Angel (U20241E321)
-Garcia Villanueva, Leonardo Rafael (U20231H059)
-Lozano Leon, Richard Enrique (U20241D990)
-Tello Palacios, Fabrizio Rafael (U202113310)
+-Cordova Valdivia, Fabio Joaquin (U20221B668)
+
+-Espinoza Lopez, Paul Alexandro Angel (U20241E321)
+
+-Garcia Villanueva, Leonardo Rafael (U20231H059)
+
+-Lozano Leon, Richard Enrique (U20241D990)
+
+-Tello Palacios, Fabrizio Rafael (U202113310)
+
 
 SEGMENTOS OBJETIVOS
 
@@ -21,4 +26,5 @@ Necesidad: Contar con una herramienta práctica e intuitiva que les permita visu
 Edad: 35 - 65 años
 Características: Profesionales con experiencia en gestión de equipos, responsables de planificar, coordinar y supervisar el trabajo de las cuadrillas en campo. Manejan reportes, controlan recursos y buscan eficiencia en la operación.
 Necesidad: Una plataforma que les permita monitorear el progreso de las cuadrillas en tiempo real, generar reportes automáticos y tomar decisiones basadas en información actualizada y confiable.
+
 
