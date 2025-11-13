@@ -1,4 +1,4 @@
-**FLOWIX**
+# FLOWIX
 
 El proyecto Flowix busca optimizar la organización, supervisión y comunicación entre los trabajadores de campo y los supervisores o gerentes de esta manera mejoraremos la eficiencia  de la ejecución y asignación de tareas operativas.
 Flowix es una solución que consiste en una plataforma digital (web o móvil), la cual nos permitirá registrar cuadrillas, asignar tareas diarias o proyectos específicos, monitorear el progreso en tiempo real y generar reportes automáticos de desempeño. De esta manera, podremos reducir la perdida de tiempo en coordinación, fortalecer las comunicaciones y mejorar la trazabilidad del trabajo en campo.
@@ -32,6 +32,7 @@ Edad: 35 - 65 años
 Características: Profesionales con experiencia en gestión de equipos, responsables de planificar, coordinar y supervisar el trabajo de las cuadrillas en campo. Manejan reportes, controlan recursos y buscan eficiencia en la operación.
 
 Necesidad: Una plataforma que les permita monitorear el progreso de las cuadrillas en tiempo real, generar reportes automáticos y tomar decisiones basadas en información actualizada y confiable.
+
 
 
 
