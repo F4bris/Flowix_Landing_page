@@ -15,7 +15,7 @@ Flowix es una solución que consiste en una plataforma digital (web o móvil), l
 
 -Tello Palacios, Fabrizio Rafael (U202113310)
 
-**SEGMENTOS OBJETIVO**
+## SEGMENTOS OBJETIVO
 
 1.Técnicos o trabajadores de campo
 
@@ -32,6 +32,7 @@ Edad: 35 - 65 años
 Características: Profesionales con experiencia en gestión de equipos, responsables de planificar, coordinar y supervisar el trabajo de las cuadrillas en campo. Manejan reportes, controlan recursos y buscan eficiencia en la operación.
 
 Necesidad: Una plataforma que les permita monitorear el progreso de las cuadrillas en tiempo real, generar reportes automáticos y tomar decisiones basadas en información actualizada y confiable.
+
 
 
 
