@@ -5,9 +5,22 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  background-color: #141414;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
 }
 
 .container{
@@ -37,6 +50,7 @@ body {
 
 .nav-links{
   padding-left: 0;
+  
 }
 
 .nav-bar h2{
@@ -66,6 +80,7 @@ body {
   flex-direction: column;
   padding: 10px 0 23px 0;
   gap: 10px;
+  
 }
 
 .Iniciar-sesion{
@@ -79,7 +94,7 @@ body {
 }
 
 .Registrarse{
-  padding: 10px 20px;
+  padding: 10px 27px;
   border: 2px solid #00bfa6;
   background-color: black;
   color: white;
@@ -101,11 +116,13 @@ body {
 h1{
   color: white;
   font-weight: bold;
+  font-size: 3em;
 }
 
 #inicio {
   display: flex;
   flex-direction: column;
+  padding-top: 200px;
   align-items: center;
   justify-content: center;
   height: 90vh;
@@ -118,7 +135,7 @@ h1{
 
 .Descargar{
   padding: 10px 20px;
-  border: 2px solid #00bfa6;
+  border: 2px solid #ffffff;
   background-color: black;
   color: white;
   font-weight: bold;
@@ -128,7 +145,7 @@ h1{
 }
 
 .Descargar:hover{
-  background-color: #00bfa6;
+  background-color: #ffffff;
   color: black;
 }
 
@@ -136,80 +153,228 @@ h1{
   display: none;
 }
 
-.who-we-are {
-  background-color: #324456;
-  color: white;
-}
 
-.who-we-are h1 {
-  font-weight: bolder;
-}
-
-.who-we-are h2 {
-  font-weight: bolder;
-  text-decoration: underline;
-}
-
-.who-we-are p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
-
-.who-we-are-members {
-  padding-top: 2%;
-  padding-bottom: 0.5%;
-  text-align: center;
-}
-
-.team-photos {
-  letter-spacing: 3rem;
-  padding: 1%;
-}
-
-.who-we-are-members p {
-  font-family: 'Roboto', sans-serif;
-}
-
-#about-the-team {
-  color:white;
-  transition: 0.3s;
-  background-color: #131F29;
-  border-color: transparent;
-  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.15);
-  font-size: 2rem;
-  font-weight: bolder;
-  padding-inline: 2rem;
-  padding-block: 1rem;
-  border-radius: 1.5rem;
-}
-
-#about-the-team:hover {
-  background-color: #506678;
-}
-
-.purpose-mision-vision {
-  background-color: #242427;
+#nosotros {
   display: flex;
-  justify-content: center;
-  gap: 9rem;
-  padding: 1rem 5%;
-}
-
-.purpose-mision-vision-box {
-  background-color: black;
-  padding: 2rem;
-  border-radius: 1rem;
-}
-
-.purpose-mision-vision-box h2 {
+  flex-direction: column;
+  background-color: #141414;
+  color: white;
+  padding: 50px 20px;
   text-align: center;
+  height: 900px;
+  align-items: center;
 }
 
-.purpose-mision-vision-box p {
-  text-align: justify;
+#nosotros h2 {
+  font-size: 2.2em;
+  margin-bottom: 110px;
 }
 
-@media (min-width: 758px) {
+.equipo {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.conocenos{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+  }
+
+.conoce-btn{
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid #ffffff;
+    padding: 10px 33px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .conoce-btn:hover{
+    background-color: #ffffff;
+    color: black; 
+  }
+
+/*modal   -------------------------------------------------*/
+  /* Estilos del Modal Scrolleable CORREGIDO */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.3s;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 2% auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    max-height: 85vh;
+    position: relative;
+    animation: slideIn 0.3s;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* BOTÓN CERRAR CORREGIDO - sin sticky */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; /* Cambiado de sticky a absolute */
+    top: 15px;
+    right: 20px;
+    z-index: 1001;
+    background: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    line-height: 1;
+}
+
+.close:hover {
+    color: #000;
+    background: #f0f0f0;
+}
+
+/* Asegurar que el contenido no quede detrás */
+.modal-content h2 {
+    margin-right: 40px; /* Espacio para el botón cerrar */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Personaliza la barra de scroll */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Estilos para el contenido del modal */
+.seccion {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    clear: both; /* Limpiar el float del botón cerrar */
+}
+
+.seccion:last-child {
+    border-bottom: none;
+}
+
+.seccion h3 {
+    color: #2c3e50;
+    
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.seccion ul {
+  list-style: none;
+  color: black;
+    padding-left: 20px;
+}
+
+.seccion p{
+  color: black;
+}
+
+.seccion li {
+  color: black;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+/*---------------------------------------------------------------------------*/
+
+  #funciones{
+    text-align: center;
+    color: white;
+    margin-top: 57em;
+    background-color: #131925;
+    height: 45em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #funciones h2{
+    font-size: 2.2em;
+  }
+
+  .proposito-video{
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .imagen-funciones{
+    display: none;
+  }
+
+  .video-container{
+    flex: 1;
+
+  }
+
+  .video-container iframe{
+    width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding-left: 25px;
+  padding-right: 30px;
+  }
+
+@media (min-width: 928px) {
   .nav-bar{
     flex-direction: row;
   }
@@ -227,12 +392,14 @@ h1{
 
   .nav-bar h2{
     display: block;
+    margin-right: 30px;
   }
 
   .register-btn{
     flex-direction: row;
     padding: 0;
     gap: 20px;
+   
   }
 
   #inicio p{
@@ -242,4 +409,201 @@ h1{
     margin-top: 20px;
     padding-bottom: 10px;
   }
+
+  #inicio{
+    padding-top: 0px;
+  }
+
+  .equipo {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  } 
+
+  .conocenos{
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  #funciones{
+    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .imagen-funciones{
+    display: block;
+    flex: 1;
+  }
+}
+
+
+/*Modal boton inicio de sesión*-------------------------/
+
+/* ========= MODAL LOGIN ========= */
+.login-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-content {
+    background: #fff;
+    padding: 25px 30px;
+    width: 90%;
+    max-width: 420px;
+    border-radius: 12px;
+    position: relative;
+    animation: fadeInLogin 0.3s ease;
+}
+
+.close-login {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #666;
+    font-weight: bold;
+}
+
+.close-login:hover {
+    color: #000;
+}
+
+.login-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.login-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background: #333;
+}
+
+/* Mensajes de error */
+.error-msg {
+    color: red;
+    font-size: 0.85em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+/* enlaces inferiores */
+.extra-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.extra-links a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
+
+/* Mostrar/Ocultar contraseña */
+.password-container {
+    position: relative;
+}
+
+.toggle-pass {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Animación */
+@keyframes fadeInLogin {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 450px) {
+    .login-content {
+        padding: 20px;
+    }
+    .toggle-pass {
+        top: 10px;
+    }
+}
+
+
+/*----------------------------------------------*/
+
+/* Menú desplegable del usuario */
+.user-menu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.user-dropdown {
+    position: absolute;
+    top: 28px;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: none;
+    width: 140px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.user-dropdown a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 6px 0;
+}
+
+.user-dropdown a:hover {
+    color: #1a73e8;
 }
