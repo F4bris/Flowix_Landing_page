@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/styles/Styles.css">
   
 </head>
@@ -29,7 +30,7 @@
           <li><a href="#">Soporte</a></li>
         </ul>
         <div class="register-btn"> 
-          <Button id="iniciarSesionbtn" class="Iniciar-sesion">Iniciar Sesión</Button>
+          <Button class="Iniciar-sesion">Iniciar Sesión</Button>
           <Button class="Registrarse">Registrarse</Button> 
           </div>
       </nav>
@@ -78,37 +79,66 @@
         </div>
       </div>
       <div class="conocenos">
-        <button id="conoceMasbtn" class="conoce-btn">Conoce más</button>
-
-        <!-- Modal -->
-    <div id="modalEmpresa" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2 style="color: #2c3e50; border-bottom: 2px solid #293037; padding-bottom: 10px;">Nuestra Empresa</h2>
-        
-        <div class="seccion">
-            <h3>🔍 Misión</h3>
-            <p><strong>Texto de prueba:</strong> Si ves esto, el HTML funciona correctamente. Desarrollamos herramientas innovadoras para mejorar la productividad de los equipos.</p>
-        </div>
-        
-        <div class="seccion">
-            <h3>🎯 Visión</h3>
-            <p><strong>Texto de prueba:</strong> Ser líderes en soluciones de gestión colaborativa en Latinoamérica.</p>
-        </div>
-        
-        <div class="seccion">
-            <h3>💎 Valores</h3>
-            <ul>
-                <li>✅ Innovación constante</li>
-                <li>✅ Calidad en cada producto</li>
-                <li>✅ Compromiso con el cliente</li>
-                <li>✅ Trabajo en equipo</li>
-            </ul>
-        </div>
+        <button class="conoce-btn">Conoce más</button>
+      </div>
     </div>
-</div>
+  </section>
 
-  <!------------------------------------------------------------------------->>
+  <section id="funciones">
+    <div class="container">
+      <br>
+      <h2>Descubre como funciona Flowix</h2>
+      <div class="proposito-video">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NexiXkP5mmo?si=9uwBI8YBpGfJpohY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+          <br>
+          <p>Somos la mejor opción para los mejores proyectos.</p>
+        </div>
+      <!--<div class="imagen-funciones">
+        <img src="assets/images/asignacion-de-tareas.jpg" alt="Asiganción de tareas">
+      </div>-->
+        
+    </div>
+  </section>
+
+ <!--  <section id="funciones">
+    <div class="container">
+      <h2>Descubre como funciona Flowix</h2>
+      <div class="proposito-video">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ensuTdzAy2I?si=xfD4ByccOT6_F7aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> 
+          </iframe>
+        </div>
+          <br>
+          <p>Somos la mejor opción para los mejores proyectos.</p>
+      </div>
+      <div class="imagen-funciones">
+        <img src="assets/images/asignacion-de-tareas.jpg" alt="Asiganción de tareas">
+      </div>
+        
+    </div> 
+  </section> -->
+
+
+  <!-- <section class="who-we-are" id="quienes-somos">
+    <div class="who-we-are">
+      <h1>¿Quiénes somos?</h1>
+      <br>
+      <p>
+        Somos un equipo que busca ayudar a las
+        empresas de campo a coordinar
+        mejor sus operaciones, <br>
+        conectando equipos y asegurando
+        resultados medibles
+      </p>
+      <br>
+      <div class="team-photos">
+        <img src="assets/images/quienes-somos-1.png" alt="Richard Lozano">
+        <img src="assets/images/quienes-somos-2.png" alt="Fabrizio Tello">
+        <img src="assets/images/quienes-somos-3.png" alt="Fabio Cordova">
+        <img src="assets/images/quienes-somos-4.png" alt="Paul Espinoza">
+        <img src="assets/images/quienes-somos-5.png" alt="Leonardo Garcia">
       </div>
     </div>
   </section>
@@ -126,79 +156,7 @@
      
         
     </div>
-  </section>
-
-<!-- -  -- - - - - - - -->
-
- 
-
-
-
-
-<!-- Modal de Inicio de Sesión -->
-<div id="loginModal" class="login-modal">
-    <div class="login-content">
-
-        <span class="close-login">&times;</span>
-
-        <h2>Iniciar Sesión</h2>
-
-        <form class="login-form">
-
-            <label for="email">Correo electrónico</label>
-            <input type="text" id="email" placeholder="Ingresa tu correo">
-
-            <label for="password">Contraseña</label>
-            <div class="password-container">
-                <input type="password" id="password" placeholder="Ingresa tu contraseña">
-                <span id="togglePassword" class="toggle-pass">👁</span>
-            </div>
-
-            <!-- Mensajes de error -->
-            <p id="login-error" class="error-msg">Por favor ingresa un correo válido.</p>
-            <p id="pass-error" class="error-msg">La contraseña debe tener al menos 8 caracteres.</p>
-
-            <button type="submit" class="btn-login">Entrar</button>
-
-            <p class="extra-links">
-                <a href="#">¿Olvidaste tu contraseña?</a><br>
-                ¿No tienes una cuenta? <a href="#">Regístrate</a>
-            </p>
-        </form>
-    </div>
-</div>
-
-<!-- ----------------------------------------->
-<!-- Modal de Registro -->
-<div id="registerModal" class="login-modal">
-    <div class="login-content">
-
-        <span class="close-register">&times;</span>
-
-        <h2>Crear Cuenta</h2>
-
-        <form class="register-form">
-
-            <label for="regEmail">Correo electrónico</label>
-            <input type="text" id="regEmail" placeholder="Ingresa tu correo">
-
-            <label for="regUser">Nombre de usuario</label>
-            <input type="text" id="regUser" placeholder="Ingresa tu nombre de usuario">
-
-            <label for="regPass">Crear contraseña</label>
-            <input type="password" id="regPass" placeholder="Mínimo 8 caracteres">
-
-            <!-- Mensajes de error -->
-            <p id="reg-error" class="error-msg">Completa todos los campos correctamente.</p>
-
-            <button type="submit" class="btn-login">Registrarse</button>
-
-        </form>
-    </div>
-</div>
-
-
-<script src="assets/scripts/main.js"></script>
+  </section> -->
 </body>
 
 </html>
