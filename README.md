@@ -41,4 +41,4 @@ Permite que los técnicos registren sus tareas, reporten avances y mantengan una
 
 ---
 
-## 📂 Estructura del Proyecto
+
