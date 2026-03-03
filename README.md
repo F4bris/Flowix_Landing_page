@@ -1,46 +1,44 @@
-# FLOWIX
+# 📱 Flowix
 
-El proyecto Flowix busca optimizar la organización, supervisión y comunicación entre los trabajadores de campo y los supervisores o gerentes de esta manera mejoraremos la eficiencia  de la ejecución y asignación de tareas operativas.
-Flowix es una solución que consiste en una plataforma digital (web o móvil), la cual nos permitirá registrar cuadrillas, asignar tareas diarias o proyectos específicos, monitorear el progreso en tiempo real y generar reportes automáticos de desempeño. De esta manera, podremos reducir la pérdida de tiempo en coordinación, fortalecer las comunicaciones y mejorar la trazabilidad del trabajo en campo.
+Flowix es una aplicación móvil diseñada para la **gestión y supervisión de trabajos de campo**, como instalación de antenas, mantenimiento técnico y otras operaciones en terreno.
 
-## INTEGRANTES:
+La plataforma optimiza la comunicación entre empleados y supervisores, permitiendo un seguimiento eficiente y en tiempo real de las actividades realizadas.
 
--Cordova Valdivia, Fabio Joaquin (U20221B668)
+---
 
--Espinoza Lopez, Paul Alexandro Angel (U20241E321)
+## 🚀 Descripción
 
--Garcia Villanueva, Leonardo Rafael (U20231H059)
+Flowix nace con el objetivo de digitalizar y mejorar la gestión operativa en trabajos de campo.  
 
--Lozano Leon, Richard Enrique (U20241D990)
+Permite que los técnicos registren sus tareas, reporten avances y mantengan una comunicación directa con sus superiores, reduciendo errores, tiempos de respuesta y falta de información.
 
--Tello Palacios, Fabrizio Rafael (U202113310)
+---
 
-## SEGMENTOS OBJETIVO
+## 🎯 Objetivos
 
-**1.Técnicos o trabajadores de campo**
+- 📡 Mejorar la coordinación entre personal de campo y supervisores.
+- 📝 Facilitar el registro y seguimiento de tareas.
+- 📊 Optimizar el control y monitoreo de trabajos técnicos.
+- ⚡ Reducir tiempos de comunicación y reportes manuales.
 
-Edad: 22 - 45 años
+---
 
-Características: Trabajadores operativos con distintos niveles de experiencia laboral, encargados de ejecutar tareas en campo siguiendo las indicaciones de sus supervisores. Se desempeñan en entornos dinámicos, donde el cumplimiento eficiente de las órdenes y la buena comunicación son esenciales.
+## 🔑 Funcionalidades Principales
 
-Necesidad: Contar con una herramienta práctica e intuitiva que les permita visualizar sus tareas asignadas, registrar avances o evidencias y comunicarse de forma ágil con sus supervisores, reduciendo tiempos y errores en la gestión diaria.
+- Registro de tareas asignadas.
+- Reporte de avances en tiempo real.
+- Comunicación directa entre empleados y superiores.
+- Historial de actividades realizadas.
+- Interfaz intuitiva y fácil de usar.
 
-**2.Supervisores o gerentes**
+---
 
-Edad: 35 - 65 años
+## 🛠️ Tecnologías Utilizadas
 
-Características: Profesionales con experiencia en gestión de equipos, responsables de planificar, coordinar y supervisar el trabajo de las cuadrillas en campo. Manejan reportes, controlan recursos y buscan eficiencia en la operación.
+- Html
+- Css
+- JavaScript
 
-Necesidad: Una plataforma que les permita monitorear el progreso de las cuadrillas en tiempo real, generar reportes automáticos y tomar decisiones basadas en información actualizada y confiable.
+---
 
-
-
-
-
-
-
-
-
-
-
-
+## 📂 Estructura del Proyecto
